@@ -137,6 +137,7 @@ nav{
 
   .mainrec{
     height: 602px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -584,3 +585,151 @@ nav{
     } //learnrec
   } //sec1wrapper
 } //sec1
+
+.sec2{
+  width: 100%;
+  height: 954px;
+  display: flex;
+  flex-direction: column;
+  background: var(--SectionColor);
+  justify-content: space-evenly;
+
+
+  .sec2Head{
+    width: 436px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+
+    .our{
+      width: 179px;
+      height: 50px;
+      background: var(--RectangleColor);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .ourp{
+        width: 131px;
+        height: 26px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+        color: var(--ActiveFontColor);
+      }
+    } //our
+
+    .sec2Title{
+      width: 436px;
+      height: 112px;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 56px;
+
+      letter-spacing: 0.5px;
+      color: #054457;
+    } //sec2Tittle
+  } //sec2Head
+
+  .gridlist{
+    width: 1500px;
+    display: grid;
+    grid-template:  repeat(2,1fr) / repeat(3,0.25fr);
+    gap: 20px;
+
+
+    h1{
+      width: 300px;
+      height: 38px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 38px;
+      letter-spacing: 0.5px;
+      color: #054457;
+    }
+
+    p{
+      width: 336px;
+      height: 104px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.5px;
+      color: #73788C;
+    }
+
+
+    .gl{
+      width: 100px;
+      height: 210px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+    } //gl
+    
+    
+  }//gridlist
+} //sec2
+
+.sec3{
+  width: 100%;
+  height: 811px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .sec3wrap{
+    width: 1102px;
+    height: 571px;
+    background-color: rgba(240, 128, 128, 0.224);
+    display: flex;
+    justify-content: space-between;
+    
+
+    .imgwrap{
+      width: 689px;
+      height: 571px;
+      display: flex;
+      flex-direction: column;
+      justify-content:end;
+
+    .sec3img{
+      width: 609px;
+      height:475px;
+      background: url(/img/interiorabout.jpg);
+      background-size: cover;
+      z-index: -1;
+    } //sec3img
+
+    .rightbottomrec{
+      width: 515px;
+      height: 82px;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #ffffff;
+      align-items: center;
+      align-self: end;
+      position: absolute;
+      
+    }
+
+  } //imgwrap
+
+    
+  } //sec3wrap
+  
+  
+} //sec3
